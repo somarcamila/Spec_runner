@@ -33,11 +33,11 @@ describe('Concatenating strings with bridgeString1', function () {
   });
 
   it('gives back a string data type', function () {
-    expect(bridgeString1(testString)).to.be.a('string');
+    expect(bridgeString1(testString1)).to.be.a('string');
   });
 
   it('gives back a concatenated string', function () {
-    expect(bridgeString1(testString)).to.equal(testString + testString2);
+    expect(bridgeString1(testString1)).to.equal(testString1 + testString2);
   });
 
   // Add more assertions here
